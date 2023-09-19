@@ -3,6 +3,7 @@ import random
 random.shuffle(koloda)
 print('Поиграем в 21?')
 count = 0
+
 while True:
     choice = input('Берете карту? y/n\n')
     if choice == 'y':
@@ -20,4 +21,5 @@ while True:
     elif choice == 'n':
         print('У вас %d очков и вы закончили игру.' %count)
         break
+
 print('До новых встречы!')
