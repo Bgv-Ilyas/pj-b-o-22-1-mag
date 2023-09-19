@@ -1,8 +1,8 @@
-koloda = [6,7,8,9,10,2,3,4,11] * 4
 import random
+koloda = [6,7,8,9,10,2,3,4,11] * 4
 random.shuffle(koloda)
-print('Поиграем в 21?')
 count = 0
+print('Поиграем в 21?')
 
 while True:
     choice = input('Берете карту? y/n\n')
