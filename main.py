@@ -5,7 +5,7 @@ print('Поиграем в 21?')
 count = 0
 
 while True:
-    choice = input('Будете брать карту? y/n\n')
+    choice = input('Берете карту? y/n\n')
     if choice == 'y':
         current = koloda.pop()
         print('Выпало %d' %current)
@@ -14,7 +14,7 @@ while True:
             print('Вы проиграли')
             break
         elif count == 21:
-            print('Вы победили 21!')
+            print('Вы победили в 21!')
             break
         else:
             print('У вас %d очков.' %count)
